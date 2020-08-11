@@ -258,7 +258,7 @@ Each function's use is the same with the following exceptions:
     print("Free memory: {}".format(info.free >> 20))
     # will print:
     #   Free memory: 5319MiB
-    print("Used memory: ".format(info.used >> 20))
+    print("Used memory: {}".format(info.used >> 20))
     # will print:
     #   Used memory: 55MiB
 
